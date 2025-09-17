@@ -1,5 +1,87 @@
 #parrafo-colorido {
-    color:aqua;
+    color:rgb(14, 223, 188);
     text-decoration: underline;
-    text-decoration-color: rgba(6, 104, 104, 0.808);
+    text-decoration-color: blue;
+
+}
+#more {
+  
+  text-decoration: none; /* Quita decoraciones (por ejemplo, de enlaces) */
+}
+
+ ul a {
+  text-decoration: none !important;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #eaeaea;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #1f1f1f;
+  color: #00ffe5;
+  text-align: center;
+  padding: 25px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00ffe5;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ff00ff;
+}
+
+article {
+  background: #1e1e1e;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+ul {
+  text-align: center;
+  display: inline-block;
+}
+
+ol {
+  text-align: center;
+ display: inline-block;
+}
+
+
+a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+a:hover {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 400% 100%; /* hace el gradiente más largo para que pueda moverse */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-move 3s linear infinite; /* animación */
+}
+
+@keyframes rainbow-move {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
