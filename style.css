@@ -85,3 +85,11 @@ a:hover {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
 }
+
+#mas_de_skzoo {
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: white;
+  color: red;
+  font-size: 35px;
+}
